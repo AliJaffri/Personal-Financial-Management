@@ -35,86 +35,86 @@ st.set_page_config(
 # unsafe_allow_html=True is required to render actual HTML.
 # We use this to make the app look polished and professional.
 # ============================================================
-st.markdown("""
-<style>
-    /* Import a clean, professional font from Google Fonts */
-    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Mono&display=swap');
+# st.markdown("""
+# <style>
+#     /* Import a clean, professional font from Google Fonts */
+#     @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Mono&display=swap');
 
-    /* Apply font to the whole app */
-    html, body, [class*="css"] {
-        font-family: 'DM Sans', sans-serif;
-    }
+#     /* Apply font to the whole app */
+#     html, body, [class*="css"] {
+#         font-family: 'DM Sans', sans-serif;
+#     }
 
-    /* Style the big metric number cards */
-    .metric-card {
-        background: #f8fafc;
-        border: 1px solid #e2e8f0;
-        border-radius: 12px;
-        padding: 1.2rem 1.5rem;
-        text-align: center;
-        margin-bottom: 1rem;
-    }
-    .metric-label {
-        font-size: 13px;
-        color: #64748b;
-        margin-bottom: 4px;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-    }
-    .metric-value {
-        font-size: 28px;
-        font-weight: 600;
-        color: #0f172a;
-        font-family: 'DM Mono', monospace;
-    }
-    .metric-value.highlight {
-        color: #2563eb;
-    }
-    .metric-value.green {
-        color: #16a34a;
-    }
+#     /* Style the big metric number cards */
+#     .metric-card {
+#         background: #f8fafc;
+#         border: 1px solid #e2e8f0;
+#         border-radius: 12px;
+#         padding: 1.2rem 1.5rem;
+#         text-align: center;
+#         margin-bottom: 1rem;
+#     }
+#     .metric-label {
+#         font-size: 13px;
+#         color: #64748b;
+#         margin-bottom: 4px;
+#         letter-spacing: 0.03em;
+#         text-transform: uppercase;
+#     }
+#     .metric-value {
+#         font-size: 28px;
+#         font-weight: 600;
+#         color: #0f172a;
+#         font-family: 'DM Mono', monospace;
+#     }
+#     .metric-value.highlight {
+#         color: #2563eb;
+#     }
+#     .metric-value.green {
+#         color: #16a34a;
+#     }
 
-    /* Style the tip/advice boxes */
-    .tip-box {
-        background: #eff6ff;
-        border-left: 4px solid #2563eb;
-        border-radius: 0 8px 8px 0;
-        padding: 1rem 1.25rem;
-        margin-top: 1rem;
-        font-size: 15px;
-        color: #1e3a5f;
-        line-height: 1.7;
-    }
+#     /* Style the tip/advice boxes */
+#     .tip-box {
+#         background: #eff6ff;
+#         border-left: 4px solid #2563eb;
+#         border-radius: 0 8px 8px 0;
+#         padding: 1rem 1.25rem;
+#         margin-top: 1rem;
+#         font-size: 15px;
+#         color: #1e3a5f;
+#         line-height: 1.7;
+#     }
 
-    /* Style allocation rows */
-    .alloc-row {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 0;
-        border-bottom: 1px solid #f1f5f9;
-        font-size: 15px;
-    }
-    .alloc-label { color: #374151; }
-    .alloc-value { font-weight: 600; color: #0f172a; font-family: 'DM Mono', monospace; }
+#     /* Style allocation rows */
+#     .alloc-row {
+#         display: flex;
+#         justify-content: space-between;
+#         align-items: center;
+#         padding: 10px 0;
+#         border-bottom: 1px solid #f1f5f9;
+#         font-size: 15px;
+#     }
+#     .alloc-label { color: #374151; }
+#     .alloc-value { font-weight: 600; color: #0f172a; font-family: 'DM Mono', monospace; }
 
-    /* Make Streamlit's default metric look nicer */
-    [data-testid="stMetric"] {
-        background: #f8fafc;
-        border: 1px solid #e2e8f0;
-        border-radius: 12px;
-        padding: 1rem 1.25rem;
-    }
+#     /* Make Streamlit's default metric look nicer */
+#     [data-testid="stMetric"] {
+#         background: #f8fafc;
+#         border: 1px solid #e2e8f0;
+#         border-radius: 12px;
+#         padding: 1rem 1.25rem;
+#     }
 
-    /* Section header style */
-    .section-intro {
-        font-size: 16px;
-        color: #475569;
-        margin-bottom: 1.5rem;
-        line-height: 1.7;
-    }
-</style>
-""", unsafe_allow_html=True)
+#     /* Section header style */
+#     .section-intro {
+#         font-size: 16px;
+#         color: #475569;
+#         margin-bottom: 1.5rem;
+#         line-height: 1.7;
+#     }
+# </style>
+# """, unsafe_allow_html=True)
 
 
 # ============================================================
